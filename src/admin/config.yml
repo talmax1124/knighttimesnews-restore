@@ -11,20 +11,15 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image caption", name: "imageAlt", widget: "string" }
-      - { label: "Body/Content", name: "body", widget: "markdown" }
-      - {
-          label: "layout",
-          name: "layout",
-          widget: "text",
-          default: "article.njk",
-        }
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Description", name: "description", widget: "string" }
+        - { label: "Author", name: "author", widget: "string" }
+        - { label: "Date", name: "date", widget: "datetime" }
+        - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+        - { label: "Featured Image", name: "image", widget: "image" }
+        - { label: "Image caption", name: "imageAlt", widget: "string" }
+        - { label: "Body/Content", name: "body", widget: "markdown" }
+        - { label: "layout", name: "layout", widget: "text", default: "article.njk"}
 
   - name: "page"
     label: "Page"
@@ -34,20 +29,14 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - {
-          label: "layout",
-          name: "layout",
-          widget: "text",
-          default: "pages.njk",
-        }
+      - { label: "layout", name: "layout", widget: "text", default: "pages.njk"}
 
-
-- name: "faq"
-    label: "faq"
-    folder: "src/faq"
-    slug: "{{slug}}"
-    create: true
-    fields:
-      - { label: "Question", name: "title", widget: "string" }
-      - { label: "Response", name: "response", widget: "markdown" }
+  - name: "faq"
+      label: "faq"
+      folder: "src/faq"
+      slug: "{{slug}}"
+      create: true
+      fields:
+        - { label: "Question", name: "title", widget: "string" }
+        - { label: "Response", name: "response", widget: "markdown" }
   
