@@ -19,7 +19,12 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image caption", name: "imageAlt", widget: "string" }
       - { label: "Body/Content", name: "body", widget: "markdown" }
-      - {label: "layout", name: "layout", widget: "hidden", default: "article.njk"}
+      - {
+          label: "layout",
+          name: "layout",
+          widget: "text",
+          default: "article.njk",
+        }
 
   - name: "page"
     label: "Page"
