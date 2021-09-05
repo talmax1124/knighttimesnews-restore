@@ -1,0 +1,18 @@
+---
+title: Frequently Asked Questions
+layout: "base.njk"
+---
+
+<h1 class="text-4xl text-gray-500">Frequently Asked Questions</h1>
+
+{% for faq in collections.faq %}
+<div class="course-card flow">
+  <h2 class="course-title">
+    {{ faq.data.title }}
+  </h2>
+
+  <div class="course-description flow">
+    {{ faq  | safe }}
+  </div>
+</div>
+{% endfor %}

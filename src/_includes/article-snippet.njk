@@ -1,0 +1,98 @@
+<a href="{{ post.url }}">
+  <!-- <div class="rounded overflow-hidden shadow-lg">
+    <img
+      class="w-full"
+      src="{{ post.data.image }}"
+      alt="{{ post.data.imageAlt }}"
+    />
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">{{ post.data.title }}</div>
+
+      <div class="flex" style="justify-content: space-between">
+        <div class="font-bold mb-2">Author: {{ post.data.author }}</div>
+        <div class="font-bold mb-2">{{ post.date | postDate }}</div>
+      </div>
+      <p class="text-gray-700 text-base">
+        {{ post.data.description }}
+      </p>
+    </div>
+    <div class="px-6 pt-4 pb-2">
+      {% for tags in post.data.tags %}
+      <span
+        class="
+          inline-block
+          bg-gray-200
+          rounded-full
+          px-3
+          py-1
+          text-sm
+          font-semibold
+          text-gray-700
+          mr-2
+          mb-2
+        "
+        >{{ tags }}</span
+      >
+      {% endfor %}
+
+
+    </div>
+  </div> -->
+
+  <!--First card-->
+  <div class="md:p-8 p-2 bg-white">
+    <!--Banner image-->
+    <img class="rounded" height="300px" src="{{ post.data.image }}" alt="{{
+      post.data.imageAlt
+    }}" " />
+
+    <!--Tag-->
+    <div class="pr-6 pt-4 pb-2">
+      {% for tags in post.data.tags %}
+      <span
+        class="
+          inline-block
+          bg-gray-200
+          rounded-full
+          px-3
+          py-1
+          text-sm
+          font-semibold
+          text-gray-700
+          mr-2
+          mb-2
+        "
+        >{{ tags }}</span
+      >
+      {% endfor %}
+    </div>
+    <!--Title-->
+    <h1
+      class="
+        font-semibold
+        text-gray-900
+        leading-none
+        text-xl
+        mt-1
+        capitalize
+        truncate
+        hover:underline
+      "
+    >
+      {{ post.data.title }}
+    </h1>
+    <div class="flex mt-2 mb-2" style="justify-content: space-between; align-content: center; align-items: center;">
+      <div class="font-bold mb-2">Author: {{ post.data.author }}</div>
+      <div class="font-bold mb-2">{{ post.date | postDate }}</div>
+    </div>
+    <!--Description-->
+    <div class="max-w-full">
+      <p class="text-base font-medium tracking-wide text-gray-600 mt-1">
+        {{ post.data.description }}
+      </p>
+    </div>
+  </div>
+  <!--End of first card-->
+
+  <!--End of first card-->
+</a>
