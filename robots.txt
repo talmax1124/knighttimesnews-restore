@@ -1,0 +1,4 @@
+Sitemap: https://knighttimesnews.com/sitemap.xml
+
+User-agent: *
+Disallow:
