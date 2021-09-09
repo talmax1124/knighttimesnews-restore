@@ -3,5 +3,9 @@ title: Frequently Asked Questions
 layout: "base.njk"
 ---
 
-<h1 class="text-4xl text-gray-500">Frequently Asked Questions</h1>
+<h1 class="text-4xl text-gray-800">Frequently Asked Questions</h1>
 
+<div class="grid lg:grid-cols-4">
+{%- for frequentlyaskedquestions in collections.frequentlyaskedquestions -%} {%
+include "./_includes/frequentlyaskedquestions.njk" %} {%- endfor -%}
+</div>

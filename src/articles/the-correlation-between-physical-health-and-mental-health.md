@@ -8,6 +8,7 @@ date: 2021-04-06T19:59:25.129Z
 tags:
   - post
   - news
+  - featured
 image: /assets/blog/brain.jpg
 imageAlt: Brain
 layout: article.njk
