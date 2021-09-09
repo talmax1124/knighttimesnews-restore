@@ -119,10 +119,9 @@
                 >Deployed & Hosted On Netlify</a
               >
             </li>
-         
-            </li>
           </ul>
         </div>
+
         <div>
           <p class="font-medium tracking-wide text-gray-300">Support</p>
           <ul class="mt-2 space-y-2">
@@ -174,19 +173,41 @@
                 >Frequently Asked Questions</a
               >
             </li>
-
           </ul>
         </div>
-        
+
+        <div>
+          <p class="font-medium tracking-wide text-gray-300">Pages</p>
+          <ul class="mt-2 space-y-2">
+            {%- for pages in collections.pages -%}
+            <li>
+              <a
+                href="{{ pages.url }}"
+                class="
+                  text-gray-500
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-200
+                "
+                >{{ pages.data.title }}</a
+              >
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
       </div>
+
       <div class="md:max-w-md lg:col-span-2">
         <span class="text-base font-medium tracking-wide text-gray-300"
           >Subscribe for updates</span
         >
-        <form class="flex flex-col mt-4 md:flex-row"  action="https://app.us17.list-manage.com/subscribe/post"
-        method="POST">
-        <input type="hidden" name="u" value="18a7d303cd3fd94c86ba5d913" />
-        <input type="hidden" name="id" value="71c493d89d" />
+        <form
+          class="flex flex-col mt-4 md:flex-row"
+          action="https://app.us17.list-manage.com/subscribe/post"
+          method="POST"
+        >
+          <input type="hidden" name="u" value="18a7d303cd3fd94c86ba5d913" />
+          <input type="hidden" name="id" value="71c493d89d" />
           <input
             placeholder="Email"
             required=""
@@ -304,3 +325,7 @@
     </div>
   </div>
 </div>
+
+<!-- {%- for pages in collections.pages -%} 
+<a href="{{ pages.url }}">{{ pages.data.title }}</a>
+{%- endfor -%} -->
