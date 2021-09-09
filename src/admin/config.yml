@@ -31,4 +31,15 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "layout", name: "layout", widget: "text", default: "pages.njk"}
 
+  - name: "course"
+    label: "Course"
+    folder: "src/courses"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Price", name: "premium", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Open/Closed", name: "open", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   
