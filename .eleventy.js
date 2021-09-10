@@ -1,6 +1,6 @@
 const { DateTime } = require("luxon");
+const readingTime = require("eleventy-plugin-reading-time");
 
-const collections = require("./src/utils/collections");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./build/styles.css");
@@ -11,8 +11,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/_redirects");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
-  collections(eleventyConfig);
+  // Insert current year
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
+  eleventyConfig.addPlugin(readingTime);
+  
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "dd LLL yyyy"
@@ -23,6 +26,8 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src",
       output: "public",
+      includes: "_includes",
+      data: "_data",
     },
   };
 };
