@@ -17,7 +17,7 @@ collections:
       - {
           name: "authors",
           label: "Authors",
-          widget: inline-select,
+          widget: "inline-select",
           multiple: true,
           options:
             [
