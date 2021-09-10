@@ -4,6 +4,7 @@ description: Since the beginning of social media, there has been at least 1
   person that dominates overall, whether it be a model, an artist or even a
   Youtuber, the internet has always been some level of popularity contest.
 author: Benjamin V.
+authors:
 date: 2021-08-25T20:01:58.471Z
 tags:
   - post

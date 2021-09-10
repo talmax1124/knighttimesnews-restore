@@ -2,6 +2,7 @@
 title: Lebanon Crisis
 description: More on the lebanon crisis
 author: Zeyad A, Abdurrahman
+authors:
 date: 2020-09-30T16:58:00.000Z
 tags:
   - post

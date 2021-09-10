@@ -4,6 +4,7 @@ description: The red planet is the fourth planet from the sun, with a radius of
   2,106 miles; smaller than earth, but still a great danger to anyone or
   anything that is unprepared...
 author: Breana S.
+authors:
 date: 2021-02-02T20:44:36.909Z
 tags:
   - post

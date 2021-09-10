@@ -41,8 +41,16 @@ layout: "base.njk"
       {% endfor %}
     </div>
     <div class="author">
-      <span style="font-weight: 600"><b>Author(s):</b></span>
+      {% if author %}
+      <span style="font-weight: 600"><b>Author:</b></span>
       <span class="text-black"> {{ author }}</span>
+      {% endif %}
+
+      {% if authors %}
+      <span style="font-weight: 600"><b>Authors:</b></span>
+      <span class="text-black"> {{ authors }}</span>
+      {% endif %}
+
     </div>
     <p
       class="

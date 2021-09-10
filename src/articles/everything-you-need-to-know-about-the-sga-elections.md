@@ -3,6 +3,7 @@ title: Everything you need to know about the SGA elections
 description: The Student Government Association (SGA) is a student run
   organization within NeoCity Academy. Events and ceremonies ...
 author: William M
+authors:
 date: 2020-09-30T18:08:59.113Z
 tags:
   - post

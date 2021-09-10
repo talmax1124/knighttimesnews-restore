@@ -2,6 +2,7 @@
 title: Is 12 years of school really worth it? Why does it exist? Are there any risks?
 description: Get more insight on the education system and how it works.
 author: Carlos D
+authors:
 date: 2021-03-06T20:54:49.381Z
 tags:
   - post

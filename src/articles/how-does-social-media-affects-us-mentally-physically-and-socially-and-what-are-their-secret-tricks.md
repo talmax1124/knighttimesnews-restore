@@ -5,6 +5,7 @@ description: Social media is the universal platform for communication,
   entertainment, and a way to feel involved in the world. Social media is used
   by nearly 225.61 million US citizens a day according to statistita.com....
 author: Carlos D
+authors:
 date: 2021-02-04T20:49:54.839Z
 tags:
   - post

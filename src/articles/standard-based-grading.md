@@ -2,6 +2,7 @@
 title: Standard Based Grading
 description: Learn About NeoCity's Grading System
 author: Michael C
+authors:
 date: 2020-11-19T20:05:54.199Z
 tags:
   - post

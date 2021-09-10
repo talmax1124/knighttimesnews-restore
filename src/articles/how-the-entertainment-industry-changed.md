@@ -2,6 +2,7 @@
 title: How the entertainment industry changed
 description: Movies and TV shows are a huge part of how we entertain ourselves...
 author: Carlos D, Vincenzo B
+authors:
 date: 2020-12-19T20:31:05.154Z
 tags:
   - post

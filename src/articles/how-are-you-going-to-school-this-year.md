@@ -2,6 +2,7 @@
 title: How are you going to school this year?
 description: Explore the varieties of how students go to school at NeoCity Academy
 author: Diego C.
+authors:
 date: 2020-08-26T16:48:44.672Z
 tags:
   - post

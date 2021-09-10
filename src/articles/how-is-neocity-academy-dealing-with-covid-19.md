@@ -2,6 +2,7 @@
 title: How is NeoCity Academy dealing with Covid-19?
 description: Details On How NeoCity Is Dealing With The Covid-19 Situation
 author: Carlos D.
+authors:
 date: 2020-08-27T16:51:22.139Z
 tags:
   - post
