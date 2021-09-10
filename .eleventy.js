@@ -1,5 +1,7 @@
 const { DateTime } = require("luxon");
 
+const collections = require("./src/utils/collections");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./build/styles.css");
   eleventyConfig.addPassthroughCopy("./src/assets");
@@ -9,17 +11,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/_redirects");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
 
-  module.exports = function(eleventyConfig) {
-
-    eleventyConfig.addFilter("getAuthor", (authors,label) => {
-      let author = authors.filter(a => a.key === label)[0];
-      return author;
-    });
-  
-    eleventyConfig.addFilter("getPostsByAuthor", (posts,author) => {
-      return posts.filter(a => a.data.author === author);
-    });
-  };
+  collections(eleventyConfig);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
