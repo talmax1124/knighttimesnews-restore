@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager & Editor | Knight Times News</title>
+    <title>Content Manager | Knight Times News</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
-const { InlineSelectControl, InlineSelectPreview } = require("netlify-cms-widget-inline-select");
+      const {
+        InlineSelectControl,
+        InlineSelectPreview,
+      } = require("netlify-cms-widget-inline-select");
       CMS.registerWidget(
         "inline-select",
         InlineSelectControl,
@@ -16,34 +19,21 @@ const { InlineSelectControl, InlineSelectPreview } = require("netlify-cms-widget
       CMS.registerPreviewStyle("/build/styles.css");
     </script>
 
-        <!-- From UNPKG -->
-        <link
-        rel="stylesheet"
-        href="https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css"
-      />
-  
-      <!-- From jsDelivr -->
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.x/dist/typography.min.css"
-      />
+    <!-- From UNPKG -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css"
+    />
+
+    <!-- From jsDelivr -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.x/dist/typography.min.css"
+    />
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script>
-const { InlineSelectControl, InlineSelectPreview } = require("netlify-cms-widget-inline-select");
-      CMS.registerWidget(
-        "inline-select",
-        InlineSelectControl,
-        InlineSelectPreview
-      );
-    </script>
-    <script>
-      CMS.registerWidget('inline-select', InlineSelectControl, InlineSelectPreview);
-
-      CMS.registerPreviewStyle("/build/styles.css");
-    </script>
   </body>
 </html>
