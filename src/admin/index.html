@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager | Knight Times News</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/karolis-sh/netlify-cms-widget-inline-select/src/InlineSelectControl.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/karolis-sh/netlify-cms-widget-inline-select/src/InlineSelectPreview.js"></script>
+
     <script>
       const {
         InlineSelectControl,
@@ -12,7 +16,6 @@
       } = require("netlify-cms-widget-inline-select");
       CMS.registerWidget(
         "inline-select",
-        string,
         InlineSelectControl,
         InlineSelectPreview
       );
