@@ -43,7 +43,7 @@ layout: "base.njk"
     <div class="author">
       {% if author %}
       <span style="font-weight: 600"><b>Author:</b></span>
-      <span class="text-black"> {{ author }}</span>
+      <a href="/authors/{{ author | slug }}/"><span class="text-black">{{ author }}</span></a>
       {% endif %}
 
       {% if authors %}
