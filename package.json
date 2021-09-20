@@ -29,6 +29,7 @@
     "tailwindcss": "^2.2.7"
   },
   "dependencies": {
+    "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
     "@tailwindcss/typography": "^0.4.1",
     "daisyui": "^1.13.0",
     "eleventy-plugin-blog-tools": "^0.3.1",

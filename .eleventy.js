@@ -1,5 +1,6 @@
 const { DateTime } = require("luxon");
 const readingTime = require("eleventy-plugin-reading-time");
+const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./build/styles.css");
@@ -24,6 +25,12 @@ module.exports = function (eleventyConfig) {
       coll[author].push(post.data);
       return coll;
     }, {});
+  });
+
+  eleventyConfig.addPlugin(sitemap, {
+    sitemap: {
+      hostname: "https://knighttimesnews.com",
+    },
   });
 
   // Insert current year
