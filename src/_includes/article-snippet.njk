@@ -28,7 +28,7 @@
       </p>
       <br>
       <hr>
-      {% for tags in post.data.tags %}
+      {% for tags in post.data.tags.slice(1, post.data.tags.length) %}
       <span
         class="
           inline-block

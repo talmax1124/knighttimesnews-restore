@@ -24,8 +24,8 @@ layout: "base.njk"
     </h1>
     <div>
       <!-- style="font-weight: 600;" -->
-      <span class="font-weight: 700;"><b>Tags:</b> </span> {% for tags in tags
-      %}
+      <span class="font-weight: 700;"><b>Tags:</b> </span> {% for tags in tags.slice(1, tags.length) %}
+      
       <span
         class="
           inline-block
