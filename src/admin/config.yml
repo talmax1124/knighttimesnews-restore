@@ -7,8 +7,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "article"
     label: "Article"
-     description: >
-      Write your articles here! If you need help, you can refer here: https://bit.ly/kt-learn-edit-articles ! Also, if you are not a club leader, please do not click ready once you finish your article. If you are working together on an article, you will have to collaborate together in word and copy and paste it.
+    description: "Write your articles here! If you need help, you can refer here: https://bit.ly/kt-learn-edit-articles ! Also, if you are not a club leader, please do not click ready once you finish your article. If you are working together on an article, you will have to collaborate together in word and copy and paste it."
     folder: "src/articles"
     create: true
     slug: "{{slug}}"
@@ -53,8 +52,7 @@ collections:
         }
 
   - name: "page"
-    description: >
-      If needed to make a page, you can create this if approved by a club leader.
+    description: "If needed to make a page, you can create this if approved by a club leader."
     folder: "src/pages"
     slug: "{{slug}}"
     create: true
