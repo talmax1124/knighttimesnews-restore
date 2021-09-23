@@ -2,7 +2,12 @@ backend:
   name: git-gateway
   branch: master
 media_folder: "public/assets/blog"
+site_url: https://knighttimesnews.com
+display_url: https://knighttimesnews.com
+logo_url: https://www.osceolaschools.net/cms/lib/FL50000609/Centricity/Domain/858/Logo.png
+show_preview_links: true
 public_folder: "/assets/blog"
+locale: "en"
 publish_mode: editorial_workflow
 collections:
   - name: "article"
@@ -14,11 +19,28 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string", required: false }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "select",
+          required: false,
+          options:
+            [
+              "Abdurrahman B",
+              "Carnot E",
+              "Tiziano Morganti",
+              "Elijah T",
+              "Jackson M",
+              "Jonathan L",
+              "Edwin R",
+              "Carlos D",
+              "Breana S",
+            ],
+        }
       - {
           name: "authors",
           label: "Authors",
-          widget: "inline-select",
+          widget: "select",
           multiple: true,
           options:
             [
