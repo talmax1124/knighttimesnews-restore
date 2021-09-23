@@ -3,7 +3,7 @@ title: The Correlation Between Physical Health and Mental Health
 description: As this may be a confusing concept to grasp at first, it is
   important to look into the scientific aspects behind the correlation between
   physical health and mental health...
-author: Abdurrahman
+author: Abdurrahman B
 authors:
 date: 2021-04-06T19:59:25.129Z
 tags:

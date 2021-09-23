@@ -1,7 +1,7 @@
 ---
 title: A Podcast?
 description: A podcast? What podcast? Yes, a podcast…but just any podcast, its Know the Neo!
-author: Breana
+author: Breana S
 authors:
 date: 2021-03-06T20:57:18.107Z
 tags:

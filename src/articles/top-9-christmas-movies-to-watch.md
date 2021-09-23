@@ -3,9 +3,8 @@ title: Top 9 Christmas Movies To Watch
 description: Winter Break is here! With that, there are many activities you can
   do during the break. One holiday favorite is watching Christmas movies. Here
   are 10 Christmas movies the Knight Times team recommends watching over the
-  next few days of break.   Andrew Hello There! Member of Knight Times!  More
-  posts by Andrew.
-author: Andrew
+  next few days of break. 
+author: Andrew 
 authors:
 date: 2020-12-28T20:37:22.832Z
 tags:

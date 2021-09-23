@@ -3,7 +3,7 @@ title: Introduction to NeoCity Academy
 description: Welcome to NeoCity Academy! If you're new here, my name is Yama and
   I'd like to welcome you to your news school. I've attended this school since
   freshman year and I'm currently a junior this year...
-author: Yama
+author: Yama J
 authors:
 date: 2020-10-09T18:21:50.700Z
 tags:
