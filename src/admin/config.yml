@@ -52,6 +52,7 @@ collections:
         }
 
   - name: "page"
+    label: "Page"
     description: "If needed to make a page, you can create this if approved by a club leader."
     folder: "src/pages"
     slug: "{{slug}}"
