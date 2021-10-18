@@ -1,0 +1,29 @@
+---
+title: Tags
+layout: "base.njk"
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  reverse: true
+  filter: 
+    - all
+    - pages
+    - posts
+    - post
+permalink: /tags/{{ tag }}/
+eleventyComputed:
+  title: "{{ tag | title }}"
+---
+
+<div class="container py-10 mx-auto">
+  <h1 class="my-10 text-5xl gray-800">All Posts Tagged “{{ tag  | title}}”</h1>
+
+  <div class="flex flex-wrap justify-between ">
+    {% set taglist = collections[tag] %}
+
+    {% for post in taglist | reverse %}
+      {% include "article-snippet.njk" %}
+    {% endfor %}
+  </div>
+</div>
