@@ -1,55 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css"
-    />
+/>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
     ></script>
     <script type="text/javascript">
-      algoliasearchNetlify({
-        appId: "670DAR37UF",
-        apiKey: "471f52ab282805b5bcd246f23e68ee2e",
-        siteId: "4e791764-5e51-47cb-bd10-a531ccf7733a",
-        branch: "master",
-        selector: "div#search",
-      });
+      algoliasearchNetlify({appId: "670DAR37UF", apiKey: "471f52ab282805b5bcd246f23e68ee2e", siteId: "4e791764-5e51-47cb-bd10-a531ccf7733a", branch: "master", selector: "div#search"});
     </script>
 
     <!-- From UNPKG -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/@tailwindcss/typography@0.4.x/dist/typography.min.css"
-    />
+/>
 
     <!-- From jsDelivr -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.x/dist/typography.min.css"
-    />
+/>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700..900&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
       rel="stylesheet"
-    />
+/>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
-    />
+/>
 
-    <meta name="author" content="{{ site.authorName }}" />
-    <meta name="description" content="{{ site.description }}" />
-    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
+    <meta name="author" content="{{ site.authorName }}"/>
+    <meta name="description" content="{{ site.description }}"/>
+    <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml"/>
 
     <!-- Hero SVG Animation -->
     <style>
@@ -173,7 +166,7 @@
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
-    />
+/>
 
     <script
       src="/src/yt-gallery.js"
@@ -190,7 +183,7 @@
       integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    />
+/>
 
     <!-- Animations -->
     <!-- Animate on scroll -->
@@ -203,19 +196,23 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
+        window
+          .netlifyIdentity
+          .on("init", (user) => {
+            if (!user) {
+              window
+                .netlifyIdentity
+                .on("login", () => {
+                  document.location.href = "/admin/";
+                });
+            }
+          });
       }
     </script>
     <!-- Styling -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="/build/styles.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="/build/styles.css"/>
 
     <!-- Alpine Js -->
     <script
@@ -225,11 +222,13 @@
 
     <title>{{ title }}</title>
   </head>
-  <body>
-    {% include 'header.njk' %}
-    <main>
-      {{ content | safe }}
-    </main>
-    {% include 'footer.njk' %}
+  <body class="h-full">
+    <div class="flex flex-col h-full">
+      {% include 'header.njk' %}
+      <main class="flex-grow border">
+        {{ content | safe }}
+      </main>
+      {% include 'footer.njk' %}
+    </div>
   </body>
 </html>
