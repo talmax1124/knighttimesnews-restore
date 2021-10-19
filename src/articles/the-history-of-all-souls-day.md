@@ -2,6 +2,7 @@
 title: The History of All Souls Day
 description: "This is the history of All Souls Day or the early Halloween. "
 author: Tiziano M
+authors: null
 date: 2021-10-19T15:15:09.351Z
 tags:
   - post
