@@ -60,6 +60,7 @@ collections:
           label: "Authors",
           widget: "select",
           multiple: true,
+          default: "",
           options:
             [
               "Josephine H",
