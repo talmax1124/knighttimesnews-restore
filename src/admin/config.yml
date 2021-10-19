@@ -18,11 +18,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "string", hint: "Make a short description to summarize your article" }
       - {
           label: "Author",
           name: "author",
           widget: "select",
+          default: "",
           required: false,
           options:
             [
@@ -93,16 +94,16 @@ collections:
             ],
           required: false,
         }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "datetime", hint: "Date that you wrote your article" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"], hint: "Category & Tags. You can use tags such as: ae, news, insights, and features" }
+      - { label: "Thumbnail", name: "image", widget: "image", hint: "Image that appears on article card and top of the article" }
       - {
           label: "Image caption",
           name: "imageAlt",
           widget: "string",
           required: false,
         }
-      - { label: "Body/Content", name: "body", widget: "markdown" }
+      - { label: "Body/Content", name: "body", widget: "markdown", hint: "Your Article Content" }
       - {
           label: "layout",
           name: "layout",
