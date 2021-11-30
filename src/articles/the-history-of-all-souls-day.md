@@ -7,7 +7,6 @@ date: 2021-10-19T15:15:09.351Z
 tags:
   - post
   - news
-  - featured
 image: /assets/blog/halloween-article.png
 layout: article.njk
 ---
