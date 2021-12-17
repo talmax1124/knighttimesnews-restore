@@ -15,6 +15,7 @@ tags:
 image: /assets/blog/myths-pic.png
 layout: article.njk
 ---
+
 # The Kraken of the Reef
 
 #### Story
