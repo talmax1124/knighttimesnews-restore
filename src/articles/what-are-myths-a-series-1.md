@@ -12,6 +12,7 @@ authors: ""
 date: 2021-12-17T16:11:29.385Z
 tags:
   - post
+  - news
 image: /assets/blog/myths-pic.png
 layout: article.njk
 ---
