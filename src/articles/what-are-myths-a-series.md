@@ -12,6 +12,7 @@ authors: ""
 date: 2021-12-09T14:40:28.111Z
 tags:
   - post
+  - news
 image: /assets/blog/myth-series-one.jpg
 layout: article.njk
 ---
