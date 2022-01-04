@@ -9,6 +9,9 @@ description: These stories these legends our what we called myths tales that
   of these tales?
 author: Tiziano M
 date: 2022-01-10T13:00:56.141Z
+tags:
+  - post
+  - news
 image: /assets/blog/dragon.jpg
 layout: article.njk
 ---
