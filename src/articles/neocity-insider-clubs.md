@@ -7,6 +7,7 @@ author: Breana S
 authors: ""
 date: 2022-01-05T16:56:46.162Z
 tags:
+  - post
   - features
 image: /assets/blog/pastedimagebase642.png
 imageAlt: 2021 Cangineering Project
