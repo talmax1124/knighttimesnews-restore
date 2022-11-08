@@ -7,7 +7,6 @@ date: 2020-08-27T16:51:22.139Z
 tags:
   - post
   - news
-  - featured
 category:
   - news
   - a&e

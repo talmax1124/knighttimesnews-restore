@@ -8,6 +8,7 @@ date: 2022-11-08T16:30:00.145Z
 tags:
   - post
   - news
+  - featured
 image: /assets/blog/prc_156196834_1593589638.jpg.webp
 layout: article.njk
 ---

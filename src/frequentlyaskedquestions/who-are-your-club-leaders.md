@@ -1,5 +1,5 @@
 ---
 title: Who are your club leaders?
-response: Breana S (President, Sophomore)       Carlos D (Vice-President,
-  Junior)     Joshua E (Secretary, Sophomore)
+response: Zeyad A (President, Junior)       Carlos D (Vice-President,
+  Senior)     Dachelle Barrett (Secretary, Junior)
 ---
