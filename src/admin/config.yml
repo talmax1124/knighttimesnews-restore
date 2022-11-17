@@ -18,7 +18,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string", hint: "Make a short description to summarize your article" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          hint: "Make a short description to summarize your article",
+        }
       - {
           label: "Author",
           name: "author",
@@ -27,6 +32,31 @@ collections:
           required: false,
           options:
             [
+              "John Fitzpatrick",
+              "Andrew Martinez",
+              "Carlos Diaz Plaza",
+              "Justis Thomas",
+              "Edwin Ruiz",
+              "Andrea Vega Rovira",
+              "Christopher Ulivarri",
+              "Christopher Andris",
+              "Aaron Weiss",
+              "Aizeyah Castaneda",
+              "Benjamin Verreault",
+              "Sawyer Sullivan",
+              "Jay Rush",
+              "Jordan Bailey",
+              "Aidan Hall",
+              "Uriel Diaz",
+              "Tiziano Morganti",
+              "Ianni Freeman",
+              "Cole Cunningham",
+              "Lawson Chaponda-Castillo",
+              "Mazz Aqil",
+              "Thomas Kennedy",
+              "Kenneth Corcoran",
+              "Wesley Hurlbert",
+              "Monet Andarcia Zakarias",
               "Josephine H",
               "Karima H",
               "Abdurrahman B",
@@ -54,6 +84,7 @@ collections:
               "Matthew V",
               "Breana S",
               "Joshua E",
+              " John Fitzpatrick",
             ],
         }
       - {
@@ -64,6 +95,31 @@ collections:
           default: "",
           options:
             [
+              "John Fitzpatrick",
+              "Andrew Martinez",
+              "Carlos Diaz Plaza",
+              "Justis Thomas",
+              "Edwin Ruiz",
+              "Andrea Vega Rovira",
+              "Christopher Ulivarri",
+              "Christopher Andris",
+              "Aaron Weiss",
+              "Aizeyah Castaneda",
+              "Benjamin Verreault",
+              "Sawyer Sullivan",
+              "Jay Rush",
+              "Jordan Bailey",
+              "Aidan Hall",
+              "Uriel Diaz",
+              "Tiziano Morganti",
+              "Ianni Freeman",
+              "Cole Cunningham",
+              "Lawson Chaponda-Castillo",
+              "Mazz Aqil",
+              "Thomas Kennedy",
+              "Kenneth Corcoran",
+              "Wesley Hurlbert",
+              "Monet Andarcia Zakarias",
               "Josephine H",
               "Karima H",
               "Abdurrahman B",
@@ -91,19 +147,41 @@ collections:
               "Matthew V",
               "Breana S",
               "Joshua E",
+              " John Fitzpatrick",
             ],
           required: false,
         }
-      - { label: "Date", name: "date", widget: "datetime", hint: "Date that you wrote your article" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"], hint: "Category & Tags. You can use tags such as: ae, news, insights, and features" }
-      - { label: "Thumbnail", name: "image", widget: "image", hint: "Image that appears on article card and top of the article" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          hint: "Date that you wrote your article",
+        }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          default: ["post"],
+          hint: "Category & Tags. You can use tags such as: ae, news, insights, and features",
+        }
+      - {
+          label: "Thumbnail",
+          name: "image",
+          widget: "image",
+          hint: "Image that appears on article card and top of the article",
+        }
       - {
           label: "Image caption",
           name: "imageAlt",
           widget: "string",
           required: false,
         }
-      - { label: "Body/Content", name: "body", widget: "markdown", hint: "Your Article Content" }
+      - {
+          label: "Body/Content",
+          name: "body",
+          widget: "markdown",
+          hint: "Your Article Content",
+        }
       - {
           label: "layout",
           name: "layout",
