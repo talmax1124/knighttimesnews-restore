@@ -35,7 +35,7 @@ Stormcaller, the Arc Warlock subclass, abuses the generation of Ionic Traces to 
 
 ![Stasis Hunter](/assets/blog/statis-hunter.png)
 
-Revenant is the worst Hunter subclass, yes. That doesn’t necessarily make it bad though.  
+***Revenant is the worst Hunter subclass, yes. That doesn’t necessarily make it bad though.***  
 
 Stasis Hunters utilizes Duskfield Grenades like no other, and that’s what makes it good. The exotic gauntlets Renewal Grasps make their Duskfield Grenades huge, giving them insane amounts of crowd control. Stasis also comes fit with good grenade regeneration fragments, multiplying the number of grenades you can throw in a short amount of time. Not only that, but the Stasis shuriken melee ability is speedy yet chilly, and is crazy abusable in builds with its two charges. Builds accomplish a near perfect melee and grenade cycle, for a gameplay loop that freezes large amounts all the time. The Super is also really good, freezing a huge area and lets you control the arena with the press of a button. However, while the Super is great in utility, it’s lacking in overall damage. And unfortunately, the only good exotic is Renewal Grasps, with the Mask of Bakris exotic helmet filling a PvP role primarily. Revenant is also one of the only subclasses giving crazy movement techs, with the aspect Shatter Dive giving you access to Shatter Skating.  
 
