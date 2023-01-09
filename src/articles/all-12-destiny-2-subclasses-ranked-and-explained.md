@@ -4,7 +4,7 @@ description: This space shooter has lots of ways to play. Let's discuss all of
   the subclasses and see what's truly worth the pick.
 author: Edwin Ruiz
 authors: ""
-date: 2022-12-05T14:47:29.861Z
+date: 2023-01-09T12:10:45.404Z
 tags: []
 image: /assets/blog/destiny.jfif
 layout: article.njk
