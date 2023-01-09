@@ -14,7 +14,7 @@ layout: article.njk
 
 With the release of Season of Plunder, Bungie has officially wrapped up its Light 3.0 reworks. I’ve had my fair share of fun with almost every subclass, excluding Stasis Warlock and any of the Titan subclasses, but I’ve done enough research to get a good grasp at them. (Plus, I watch lots of YouTube, so I’m BASICALLY a pro.) So today, with the assistance of Jay Rush for ordering, I present to you: All 12 Destiny 2 Subclasses Ranked and Explained, primarily looking into PvE (since you can run any subclass in PvP and be fine), fit with playstyle and strategy explanations.
 
-### \#12: Stasis Titan, Behemoth 
+### \#12: Stasis Titan, Behemoth
 
 ![Stasis Titan](https://www.bungie.net/pubassets/pkgs/140/140587/Titan_Stasis_01.jpg?cv=3983621215&av=3172699293)
 
@@ -24,7 +24,7 @@ The gimmick for Stasis Titans is to create as many Stasis crystals as possible a
 
 There’s really not much to say, as there’s no strong points that Behemoth has. At least it’s funny.
 
-### \#11: Arc Warlock, Stormcaller 
+### \#11: Arc Warlock, Stormcaller
 
 ![Arc Warlock](/assets/blog/arc-warlock.png)
 
@@ -32,7 +32,7 @@ There’s really not much to say, as there’s no strong points that Behemoth ha
 
 Stormcaller, the Arc Warlock subclass, abuses the generation of Ionic Traces to stay amplified and keep its abilities going, giving it some great add clear capabilities. The Warlock helmet Fallen Sunstar increases that ability energy by a moderate amount, letting you use your abilities even more frequently. Striking lightning all over the place is a fun ride, but these abilities are simply lacking. Not only that, but the overall subclass lacks in the utility that other Warlock subclasses give you. Why not run Void for the same add clear capabilities but 100x better, or run Solar for the same add clear capabilities and Well of Radiance? Arc Warlocks was completely power-crept before it released. And it doesn’t even have a good Super as a saving grace, because both Chaos Reach and Stormtrance are awful. They require you to run an exotic to make it tolerable enough to use, and even then, they’re still lacking.
 
-### \#10: Stasis Hunter, Revenant 
+### \#10: Stasis Hunter, Revenant
 
 ![Stasis Hunter](/assets/blog/statis-hunter.png)
 
@@ -42,7 +42,7 @@ Stasis Hunters utilizes Duskfield Grenades like no other, and that’s what make
 
 This sub-class is great at what it does best: freezing. However, it doesn’t exactly do it as well as it can.
 
-### \#9: Solar Hunter, Gunslinger 
+### \#9: Solar Hunter, Gunslinger
 
 ![Solar Hunter](https://cdn1.dotesports.com/wp-content/uploads/2022/06/21094957/d2-solar-hunter.jpg)
 
@@ -52,7 +52,7 @@ Building a Solar Hunter is incredibly flexible, but the game plan always revolve
 
 Gunslinger is also a great pick for PvP due to Golden Gun and Radiance, but in PvE it fills the hectic explosion niche.
 
-### \#8: Void Titan, Sentinel 
+### \#8: Void Titan, Sentinel
 
 ![Void Titan](https://cdn.fanbyte.com/wp-content/uploads/2022/02/Void_Subclass_Titan.png?x48911)
 
@@ -62,7 +62,7 @@ Sentinels truly fit the role that Titans are meant to be; impenetrable wall. It 
 
 This class is generally just the ultimate support class, keeping your fireteam alive with protection and helping with damage phases overall.
 
-### \#7: Void Hunter, Nightstalker 
+### \#7: Void Hunter, Nightstalker
 
 ![Void Hunter](https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/11/Destiny-Hunter-Void.jpg)
 
@@ -84,7 +84,7 @@ There’s also a completely different way you could play Shadebinder, which warr
 
 Overall, if you want to freeze the battlefield, play Stasis Warlock. Not only do you have 2 unique ways to play, but they’re both highly effective in any areas of play.
 
-### \#5: Solar Titan, Sunbreaker 
+### \#5: Solar Titan, Sunbreaker
 
 ![Solar Titan](/assets/blog/solar-titan.png)
 
@@ -94,7 +94,7 @@ The Solar Titan playstyle took a 180 recently. Previous you would abuse the exot
 
 The Solar Titan shift from Loreley abuse to carpeting the arena with flames makes Sunbreaker look stronger than before, and is an incredibly solid choice for any content, having great damage and add clear, and being incredibly self-sustainable.
 
-### \#4: Arc Hunter, Arcstrider 
+### \#4: Arc Hunter, Arcstrider
 
 ![Arc Hunter](https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/09/02/hunter-arc-3-0-builds_feature.jpg)
 
@@ -104,7 +104,7 @@ Arcstrider went from being an abandoned gimmick, since Arc 3.0 was the last to r
 
 Build Arcstrider if you don’t want to use your gun. All you need is to punch, punch, punch, and you’ll never die. And you’d think that’s the Titan’s job!
 
-### \#3: Void Warlock, Voidwalker 
+### \#3: Void Warlock, Voidwalker
 
 ![Void Warlock](/assets/blog/void-warlock.png)
 
@@ -116,7 +116,7 @@ Now that you have your self-sustaining loop, you can throw in an exotic, which d
 
 Void Warlock is definitely the easiest subclass to build, as it takes literally nothing specific to be good. It keeps itself going through aspects and fragments alone, and your mod slots and exotics will only make it even better.
 
-### \#2: Solar Warlock, Dawnblade 
+### \#2: Solar Warlock, Dawnblade
 
 ![Solar Warlock ](https://cdn1.dotesports.com/wp-content/uploads/2022/07/14101751/d2-solar-warlock.jpg)
 
@@ -126,7 +126,7 @@ Dawnblade has the same versatility that Gunslinger has, except instead of Radian
 
 That isn’t why it’s so high up though. Yes, Solar Warlock is a great class with different ways to play, but that’s not why it’s so special. What makes it the second-best subclass in the game is its Super, Well of Radiance. The best Super in the game, Well of Radiance is a golden rift for your teammates where you basically cannot die. It gives constant health, insane resistance, and lasts for quite a while. Get a few of these on your team, and you’ll have a grand amount of time to do damage to any boss. This is also why Starfire Protocol is popular, as the exotic pairs well with Well of Radiance. Many people consider this Super to be way too OP, which is why Solar Warlocks are crucial to any fireteam.
 
-### \#1: Arc Titan, Striker 
+### \#1: Arc Titan, Striker
 
 ![Arc Titan](https://d1lss44hh2trtw.cloudfront.net/assets/article/2022/10/04/best-titan-arc-3-0-pve-build-destiny-2_feature.jpg)
 
@@ -134,7 +134,7 @@ That isn’t why it’s so high up though. Yes, Solar Warlock is a great class w
 
 What can I say about this subclass? There’s really nothing special about it. Yeah sure, you can play some cool Thunderclap build, but it won’t match up to Storm Grenades. Nothing beats Storm Grenades. Arc Titan absolutely abuses Storm Grenades as the Arc grenade subclass. The artifact mod for Season of Plunder, Lightning Strikes Twice, gives you constant Storm Grenades. Those Storm Grenades get buffed by Arc Titan aspects and fragments, and then you pair that with the exotic chest armor Heart of Inmost Light to empower your other abilities as well. TLDR: Constant ability uptime, constant grenades. That’s all there is to it. Everything else is just outclassed in damage and ease of use. And that’s why it’s the best.
 
-### In Conclusion 
+### In Conclusion
 
 Don’t let these ranks steer you away from playing a subclass, play what you want. This is to show the strengths, weaknesses, and overall playstyle of each class. Destiny 2 is a very fun game with many ways to play and build. Try exploring for your own unique way to play. Some might be harder to play than others, but every subclass can have its own role in the fireteam. Whether you’re trying to dive straight into the action with Sunbreaker or Arcstrider, exploding everything with Gunslinger or Voidwalker, freezing the arena with Revenant or Shadebinder, enjoying the show with Nightstalker, or even being a bit silly with Behemoth. Pick a sub-class that you feel matches the playstyle you’re going for! Make your own way to play and perfect it, that is what Destiny is all about.
 
