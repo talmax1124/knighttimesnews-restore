@@ -6,7 +6,8 @@ author: Edwin Ruiz
 authors: ""
 date: 2023-01-09T12:10:45.404Z
 tags:
-  - "#post"
+  - post
+  - ae
 image: /assets/blog/destiny.jfif
 layout: article.njk
 ---
