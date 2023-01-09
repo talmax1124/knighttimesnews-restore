@@ -5,7 +5,8 @@ description: This space shooter has lots of ways to play. Let's discuss all of
 author: Edwin Ruiz
 authors: ""
 date: 2023-01-09T12:10:45.404Z
-tags: []
+tags:
+  - "#post"
 image: /assets/blog/destiny.jfif
 layout: article.njk
 ---
