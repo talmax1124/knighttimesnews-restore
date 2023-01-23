@@ -1,6 +1,6 @@
 ---
 title: Find Your Future
-description: A guide for setting yourself up for the future (needs to be adjusted later)
+description: A guide for setting yourself up for future success in college acceptance.
 author: Tiziano Morganti
 authors: ""
 date: 2023-01-09T03:07:26.696Z
