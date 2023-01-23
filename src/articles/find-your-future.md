@@ -14,15 +14,15 @@ layout: article.njk
 
 College is one of the biggest concerns for any high schooler, being one of the most stressful things to have in mind. To many, the idea of getting into a college without the assistance of financial help may seem impossible, but with the help of this article one could dramatically increase their chances of getting recognized.
 
-### GPA 
+### GPA
 
 With limited spots for every college, this puts a lot of focus on the choice of choosing students who would have an easier time excelling in more rigorous academics. Having a high GPA helps colleges understand the potential you have in succeeding in exceedingly difficult courses, but fret not! Colleges don’t assume you have to have a perfect GPA. (With grades such as a B in a more difficult class like Pre-Calculus when compared to a student with an A in Algebra II, colleges would see the reason for the difference in grades between the 2 classes).
 
-### AP and Honors Classes 
+### AP and Honors Classes
 
 Taking AP and Honors classes, typically harder classes, are a great way to impress the admissions committee. The AP classes you take also can provide you with the necessary information needed to take more difficult courses when you do arrive at college.
 
-### AP and Honors Classes... 
+### AP and Honors Classes...
 
 - Demonstrate you embrace academic challenges.
 - Demonstrate you are ready to take college level classes.
@@ -30,7 +30,7 @@ Taking AP and Honors classes, typically harder classes, are a great way to impre
 
 Along with this, you also get the benefit of earning free college credits in high school (if get a good enough score) along with showing the admission committee you have potential.
 
-### Letters of Recommendation 
+### Letters of Recommendation
 
 With the assistance of letters of recommendation given by educational figures, colleges are shown a third person view of your abilities, social skills, and character.
 
@@ -38,7 +38,7 @@ If you were to ever write a letter of recommendation it should include either a 
 
 Most colleges also require at least 1 letter of recommendation by a teacher or mentor to confirm the skill and character of the student.
 
-### SAT/ACT Scores  
+### SAT/ACT Scores
 
 The Scholastic Aptitude Test and the American College Testing exams are two focus exams that colleges look for during the admissions process. The SAT exam is a test administrated by College Board used to provide the student and colleges with a point-based average of the student’s reading and writing ability as well as their math comprehension. The ACT exam is like the SAT in terms of material covered in the test, following the same need of language and math comprehension with the addition of science.
 
@@ -58,13 +58,13 @@ The Scholastic Aptitude Test and the American College Testing exams are two focu
 
 ![](/assets/blog/act-scores.png)
 
-### Stand Out to Schools with Volunteer and Work Experience 
+### Stand Out to Schools with Volunteer and Work Experience
 
 Part-time or summer jobs, internships, and volunteer work allow the selection committee to see how you operate beyond the walls of the classroom. Colleges will always look for capable and organized leaders, by doing volunteer work this proves to the committee that you fit that standard.
 
 Gaining volunteer hours can later lead to scholarships and other programs that require volunteering to partake in, scholarships are a great way to pay off tuition.
 
-### Excel by doing Extracurricular activities 
+### Excel by doing Extracurricular activities
 
 Colleges look for team players when it comes to choosing students to administer. By doing extracurricular activities such as clubs, sports, debate teams, organizations, music groups, or community projects may excel your chances of being noticed. The programs you partake in also show colleges that you have the determination and commitment that comes with joining one, it also shows your passion for overcoming challenges.
 
@@ -72,7 +72,7 @@ Colleges look for team players when it comes to choosing students to administer.
 
 While getting accepted into college is a challenge itself, there are multiple factors that can lighten the load and make admissions easier. By taking these steps to make yourself stand out from other students, you ensure you have a chance of succeeding in the college admission process.
 
-#### Citation:  
+#### Citation:
 
 - Castañeda, B. (2021, October 27). What Do Colleges Look for? 9 Ways to Stand Out to Admissions Committees. The College Post. <https://thecollegepost.com/what-do-colleges-look-for/>
 - Nair, M. (2022, July 15). What Is The SAT? Your Complete Guide To The Test. University of the People. <https://www.uopeople.edu/blog/what-is-the-sat/>
